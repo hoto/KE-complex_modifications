@@ -1,0 +1,122 @@
+{
+  "title": "Personal rules (@hoto) - Razer Naga Pro",
+  "maintainers": [
+    "hoto"
+  ],
+  "rules": [
+    {
+      "description": "1 to command+c",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "1"
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "2 to return_or_enter",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "2"
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter",
+              "modifiers": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "3 to command+b",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "3"
+          },
+          "to": [
+            {
+              "key_code": "b",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "4 to command+v",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "4"
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "5 to delete_forward",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "5"
+          },
+          "to": [
+            {
+              "key_code": "delete_forward",
+              "modifiers": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "8 to delete_or_backspace",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "8"
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace",
+              "modifiers": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
