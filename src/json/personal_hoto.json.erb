@@ -91,6 +91,25 @@
             ]
         },
         {
+            "description": "6 to option+command+right_arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from":
+                    <%= from("6", [], []) %>,
+                    "to": [
+                        {
+                            "key_code": "right_arrow",
+                            "modifiers": [
+                                "option",
+                                "command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "description": "8 to delete_or_backspace",
             "manipulators": [
                 {
@@ -101,6 +120,25 @@
                         {
                             "key_code": "delete_or_backspace",
                             "modifiers": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "9 to option+command+left_arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from":
+                    <%= from("9", [], []) %>,
+                    "to": [
+                        {
+                            "key_code": "left_arrow",
+                            "modifiers": [
+                                "option",
+                                "command"
+                            ]
                         }
                     ]
                 }
