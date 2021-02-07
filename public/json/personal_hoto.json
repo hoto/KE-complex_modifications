@@ -1,5 +1,5 @@
 {
-  "title": "Personal rules (@hoto) - Razer Naga Pro",
+  "title": "Personal rules (@hoto) - Razer Naga Pro - Jetbrains",
   "maintainers": [
     "hoto"
   ],
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "description": "6 to option+command+right_arrow",
+      "description": "6 to option+command+right_arrow (navigate forward)",
       "manipulators": [
         {
           "type": "basic",
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "description": "9 to option+command+left_arrow",
+      "description": "9 to option+command+left_arrow (navigate back)",
       "manipulators": [
         {
           "type": "basic",
@@ -152,6 +152,45 @@
               "modifiers": [
                 "option",
                 "command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "10 to escape",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "0"
+          },
+          "to": [
+            {
+              "key_code": "escape",
+              "modifiers": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "12 to control+option+h (call hierarchy)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "equal_sign"
+          },
+          "to": [
+            {
+              "key_code": "h",
+              "modifiers": [
+                "control",
+                "option"
               ]
             }
           ]
