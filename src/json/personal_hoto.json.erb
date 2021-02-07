@@ -39,7 +39,7 @@
             ]
         },
         {
-            "description": "Razer Naga Pro • 3 to command+b",
+            "description": "Razer Naga Pro • 3 to command+b (go to declaration or usages)",
             "manipulators": [
                 {
                     "type": "basic",
@@ -91,7 +91,7 @@
             ]
         },
         {
-            "description": "Razer Naga Pro • 6 to option+command+right (navigate forward)",
+            "description": "Razer Naga Pro • 6 to option+command+b (go to implementation)",
             "manipulators": [
                 {
                     "type": "basic",
@@ -99,7 +99,7 @@
                     <%= from("6", [], []) %>,
                     "to": [
                         {
-                            "key_code": "right_arrow",
+                            "key_code": "b",
                             "modifiers": [
                                 "option",
                                 "command"
@@ -144,7 +144,7 @@
             ]
         },
         {
-            "description": "Razer Naga Pro • 9 to option+command+left (navigate back)",
+            "description": "Razer Naga Pro • 9 to option+command+right (navigate forward)",
             "manipulators": [
                 {
                     "type": "basic",
@@ -152,7 +152,7 @@
                     <%= from("9", [], []) %>,
                     "to": [
                         {
-                            "key_code": "left_arrow",
+                            "key_code": "right_arrow",
                             "modifiers": [
                                 "option",
                                 "command"
@@ -195,7 +195,7 @@
             ]
         },
         {
-            "description": "Razer Naga Pro • 12 to control+option+h (call hierarchy)",
+            "description": "Razer Naga Pro • 12 option+command+left (navigate back)",
             "manipulators": [
                 {
                     "type": "basic",
@@ -203,10 +203,10 @@
                     <%= from("equal_sign", [], []) %>,
                     "to": [
                         {
-                            "key_code": "h",
+                                "key_code": "left_arrow",
                             "modifiers": [
-                                "control",
-                                "option"
+                                "option",
+                                "command"
                             ]
                         }
                     ]
@@ -243,6 +243,25 @@
                             "key_code": "right_arrow",
                             "modifiers": [
                                 "control"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Razer Naga Pro • top_up_btn to control+option+h (call hierarchy)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from":
+                    <%= from("up_arrow", [], []) %>,
+                    "to": [
+                        {
+                            "key_code": "h",
+                            "modifiers": [
+                                "control",
+                                "option"
                             ]
                         }
                     ]
