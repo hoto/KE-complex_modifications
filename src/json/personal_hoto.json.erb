@@ -5,7 +5,7 @@
     ],
     "rules": [
         {
-            "description": "1 to command+c",
+            "description": "Razer Naga Pro • 1 to command+c",
             "manipulators": [
                 {
                     "type": "basic",
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "description": "2 to return_or_enter",
+            "description": "Razer Naga Pro • 2 to return_or_enter",
             "manipulators": [
                 {
                     "type": "basic",
@@ -39,7 +39,7 @@
             ]
         },
         {
-            "description": "3 to command+b",
+            "description": "Razer Naga Pro • 3 to command+b",
             "manipulators": [
                 {
                     "type": "basic",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "description": "4 to command+v",
+            "description": "Razer Naga Pro • 4 to command+v",
             "manipulators": [
                 {
                     "type": "basic",
@@ -75,7 +75,7 @@
             ]
         },
         {
-            "description": "5 to delete_forward",
+            "description": "Razer Naga Pro • 5 to delete_forward",
             "manipulators": [
                 {
                     "type": "basic",
@@ -91,7 +91,7 @@
             ]
         },
         {
-            "description": "6 to option+command+right_arrow (navigate forward)",
+            "description": "Razer Naga Pro • 6 to option+command+right (navigate forward)",
             "manipulators": [
                 {
                     "type": "basic",
@@ -110,7 +110,25 @@
             ]
         },
         {
-            "description": "8 to delete_or_backspace",
+            "description": "Razer Naga Pro • 7 to command+z",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from":
+                    <%= from("7", [], []) %>,
+                    "to": [
+                        {
+                            "key_code": "z",
+                            "modifiers": [
+                                "command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Razer Naga Pro • 8 to delete_or_backspace",
             "manipulators": [
                 {
                     "type": "basic",
@@ -126,7 +144,7 @@
             ]
         },
         {
-            "description": "9 to option+command+left_arrow (navigate back)",
+            "description": "Razer Naga Pro • 9 to option+command+left (navigate back)",
             "manipulators": [
                 {
                     "type": "basic",
@@ -145,7 +163,7 @@
             ]
         },
         {
-            "description": "10 to escape",
+            "description": "Razer Naga Pro • 10 to escape",
             "manipulators": [
                 {
                     "type": "basic",
@@ -161,7 +179,23 @@
             ]
         },
         {
-            "description": "12 to control+option+h (call hierarchy)",
+            "description": "Razer Naga Pro • 11 to o (insert next line in vim)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from":
+                    <%= from("hyphen", [], []) %>,
+                    "to": [
+                        {
+                            "key_code": "o",
+                            "modifiers": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Razer Naga Pro • 12 to control+option+h (call hierarchy)",
             "manipulators": [
                 {
                     "type": "basic",
@@ -173,6 +207,42 @@
                             "modifiers": [
                                 "control",
                                 "option"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Razer Naga Pro • wheel_btn_left to control+left (desktop left)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from":
+                    <%= from("q", [], []) %>,
+                    "to": [
+                        {
+                            "key_code": "left_arrow",
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Razer Naga Pro • wheel_btn_right to control+right (desktop right)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from":
+                    <%= from("w", [], []) %>,
+                    "to": [
+                        {
+                            "key_code": "right_arrow",
+                            "modifiers": [
+                                "control"
                             ]
                         }
                     ]
