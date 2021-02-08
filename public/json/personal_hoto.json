@@ -43,7 +43,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 3 to command+b (go to declaration or usages)",
+      "description": "Razer Naga Pro • 3 to option+command+b (go to implementation)",
       "manipulators": [
         {
           "type": "basic",
@@ -54,6 +54,7 @@
             {
               "key_code": "b",
               "modifiers": [
+                "option",
                 "command"
               ]
             }
@@ -100,7 +101,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 6 to option+command+b (go to implementation)",
+      "description": "Razer Naga Pro • 6 to option+command+right (navigate forward)",
       "manipulators": [
         {
           "type": "basic",
@@ -109,7 +110,7 @@
           },
           "to": [
             {
-              "key_code": "b",
+              "key_code": "right_arrow",
               "modifiers": [
                 "option",
                 "command"
@@ -158,7 +159,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 9 to option+command+right (navigate forward)",
+      "description": "Razer Naga Pro • 9 option+command+left (navigate back)",
       "manipulators": [
         {
           "type": "basic",
@@ -167,7 +168,7 @@
           },
           "to": [
             {
-              "key_code": "right_arrow",
+              "key_code": "left_arrow",
               "modifiers": [
                 "option",
                 "command"
