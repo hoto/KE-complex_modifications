@@ -217,7 +217,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 12 option+command+left (navigate back)",
+      "description": "Razer Naga Pro • 12 command+shift+e (recent locations)",
       "manipulators": [
         {
           "type": "basic",
@@ -226,10 +226,10 @@
           },
           "to": [
             {
-              "key_code": "left_arrow",
+              "key_code": "e",
               "modifiers": [
-                "option",
-                "command"
+                "command",
+                "shift"
               ]
             }
           ]
