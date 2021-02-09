@@ -184,7 +184,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "escape"
+            "key_code": "0"
           },
           "to": [
             {
@@ -223,11 +223,11 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "0"
+            "key_code": "equal_sign"
           },
           "to": [
             {
-              "key_code": "equal_sign",
+              "key_code": "escape",
               "modifiers": [
 
               ]
