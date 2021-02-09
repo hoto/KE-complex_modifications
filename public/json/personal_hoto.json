@@ -179,16 +179,16 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 10 to escape",
+      "description": "Razer Naga Pro • 10 to o (insert next line in vim)",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "0"
+            "key_code": "escape"
           },
           "to": [
             {
-              "key_code": "escape",
+              "key_code": "o",
               "modifiers": [
 
               ]
@@ -218,16 +218,16 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 12 to o (insert next line in vim)",
+      "description": "Razer Naga Pro • 12 to escape",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "equal_sign"
+            "key_code": "0"
           },
           "to": [
             {
-              "key_code": "o",
+              "key_code": "equal_sign",
               "modifiers": [
 
               ]
