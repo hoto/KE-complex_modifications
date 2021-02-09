@@ -24,7 +24,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 2 to return_or_enter",
+      "description": "Razer Naga Pro • 2 to option+command+b (go to implementation)",
       "manipulators": [
         {
           "type": "basic",
@@ -33,9 +33,10 @@
           },
           "to": [
             {
-              "key_code": "return_or_enter",
+              "key_code": "b",
               "modifiers": [
-
+                "option",
+                "command"
               ]
             }
           ]
@@ -43,7 +44,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 3 to option+command+b (go to implementation)",
+      "description": "Razer Naga Pro • 3 to return_or_enter",
       "manipulators": [
         {
           "type": "basic",
@@ -52,10 +53,9 @@
           },
           "to": [
             {
-              "key_code": "b",
+              "key_code": "return_or_enter",
               "modifiers": [
-                "option",
-                "command"
+
               ]
             }
           ]
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 5 to delete_forward",
+      "description": "Razer Naga Pro • 5 to option+command+right (navigate forward)",
       "manipulators": [
         {
           "type": "basic",
@@ -91,9 +91,10 @@
           },
           "to": [
             {
-              "key_code": "delete_forward",
+              "key_code": "right_arrow",
               "modifiers": [
-
+                "option",
+                "command"
               ]
             }
           ]
@@ -101,7 +102,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 6 to option+command+right (navigate forward)",
+      "description": "Razer Naga Pro • 6 to delete_forward",
       "manipulators": [
         {
           "type": "basic",
@@ -110,10 +111,9 @@
           },
           "to": [
             {
-              "key_code": "right_arrow",
+              "key_code": "delete_forward",
               "modifiers": [
-                "option",
-                "command"
+
               ]
             }
           ]
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 8 to delete_or_backspace",
+      "description": "Razer Naga Pro • 8 option+command+left (navigate back)",
       "manipulators": [
         {
           "type": "basic",
@@ -149,9 +149,10 @@
           },
           "to": [
             {
-              "key_code": "delete_or_backspace",
+              "key_code": "left_arrow",
               "modifiers": [
-
+                "option",
+                "command"
               ]
             }
           ]
@@ -159,7 +160,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 9 option+command+left (navigate back)",
+      "description": "Razer Naga Pro • 9 to delete_or_backspace",
       "manipulators": [
         {
           "type": "basic",
@@ -168,10 +169,9 @@
           },
           "to": [
             {
-              "key_code": "left_arrow",
+              "key_code": "delete_or_backspace",
               "modifiers": [
-                "option",
-                "command"
+
               ]
             }
           ]
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 11 to o (insert next line in vim)",
+      "description": "Razer Naga Pro • 11 command+shift+e (recent locations)",
       "manipulators": [
         {
           "type": "basic",
@@ -207,9 +207,10 @@
           },
           "to": [
             {
-              "key_code": "o",
+              "key_code": "e",
               "modifiers": [
-
+                "command",
+                "shift"
               ]
             }
           ]
@@ -217,7 +218,7 @@
       ]
     },
     {
-      "description": "Razer Naga Pro • 12 command+shift+e (recent locations)",
+      "description": "Razer Naga Pro • 12 to o (insert next line in vim)",
       "manipulators": [
         {
           "type": "basic",
@@ -226,10 +227,9 @@
           },
           "to": [
             {
-              "key_code": "e",
+              "key_code": "o",
               "modifiers": [
-                "command",
-                "shift"
+
               ]
             }
           ]
