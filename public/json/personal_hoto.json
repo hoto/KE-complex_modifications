@@ -295,7 +295,7 @@
       ]
     },
     {
-      "description": "Logitech pointer • F5 to space",
+      "description": "Logitech pointer • F5 to space (play/pause)",
       "manipulators": [
         {
           "type": "basic",
@@ -314,7 +314,7 @@
       ]
     },
     {
-      "description": "Logitech pointer • escape to space",
+      "description": "Logitech pointer • escape to space (play/pause)",
       "manipulators": [
         {
           "type": "basic",
@@ -333,7 +333,7 @@
       ]
     },
     {
-      "description": "Logitech pointer • page_up to left arrow",
+      "description": "Logitech pointer • page_up to left arrow (rewind 5 sec)",
       "manipulators": [
         {
           "type": "basic",
@@ -352,7 +352,7 @@
       ]
     },
     {
-      "description": "Logitech pointer • page_down to right arrow",
+      "description": "Logitech pointer • page_down to right arrow (forward 5 sec)",
       "manipulators": [
         {
           "type": "basic",
@@ -362,6 +362,25 @@
           "to": [
             {
               "key_code": "right_arrow",
+              "modifiers": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Logitech pointer • dot to f (full screen)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period"
+          },
+          "to": [
+            {
+              "key_code": "f",
               "modifiers": [
 
               ]
