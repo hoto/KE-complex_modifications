@@ -312,6 +312,25 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Logitech pointer • escape to space",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "escape"
+          },
+          "to": [
+            {
+              "key_code": "spacebar",
+              "modifiers": [
+
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
