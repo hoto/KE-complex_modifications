@@ -293,6 +293,25 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Logitech pointer • F5 to space",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f5"
+          },
+          "to": [
+            {
+              "key_code": "spacebar",
+              "modifiers": [
+
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
