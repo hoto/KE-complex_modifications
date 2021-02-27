@@ -331,6 +331,25 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Logitech pointer • PgUp to left arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "page_up"
+          },
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": [
+
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
