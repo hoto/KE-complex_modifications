@@ -316,6 +316,22 @@
                     ]
                 }
             ]
+        },
+        {
+            "description": "Logitech pointer • page_down to right arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from":
+                    <%= from("page_down", [], []) %>,
+                    "to": [
+                        {
+                            "key_code": "right_arrow",
+                            "modifiers": []
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

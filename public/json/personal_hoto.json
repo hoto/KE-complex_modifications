@@ -333,7 +333,7 @@
       ]
     },
     {
-      "description": "Logitech pointer • PgUp to left arrow",
+      "description": "Logitech pointer • page_up to left arrow",
       "manipulators": [
         {
           "type": "basic",
@@ -343,6 +343,25 @@
           "to": [
             {
               "key_code": "left_arrow",
+              "modifiers": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Logitech pointer • page_down to right arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "page_down"
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
               "modifiers": [
 
               ]
